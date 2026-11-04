@@ -1,0 +1,6 @@
+[Added Associations]
+image/png=org.gnome.Loupe.desktop;
+
+[Default Applications]
+image/png=org.gnome.Loupe.desktop
+x-scheme-handler/discord=vesktop.desktop

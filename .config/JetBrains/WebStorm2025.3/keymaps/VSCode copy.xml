@@ -1,0 +1,63 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="CloseAllEditors" />
+  <action id="CloseAllEditorsButActive" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CollapseAllRegions" />
+  <action id="CollapseBlock">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+  </action>
+  <action id="CollapseDocComments" />
+  <action id="CollapseRegionRecursively" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="CompareClipboardWithSelection" />
+  <action id="CopyAbsolutePath">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="EditSourceInNewWindow" />
+  <action id="ExpandAllRegions" />
+  <action id="ExpandRegionRecursively" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Help.KeymapReference" />
+  <action id="JumpToLastChange" />
+  <action id="MoveTabRight" />
+  <action id="NextSplitter" />
+  <action id="OverrideFileTypeAction" />
+  <action id="PinActiveTabAction" />
+  <action id="PrevSplitter" />
+  <action id="PreviousTab" />
+  <action id="QuickChangeScheme" />
+  <action id="QuickJavaDoc" />
+  <action id="RemoteServers.EditServerConfig" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RunDashboard.EditConfiguration" />
+  <action id="SaveAll" />
+  <action id="SelectInProjectView" />
+  <action id="ShowContent">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="Terminal.NextSplitter" />
+  <action id="Terminal.PrevSplitter" />
+  <action id="TextEditorWithPreview.Layout.EditorAndPreview" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
+  <action id="ToggleZenMode" />
+  <action id="Vcs.Log.ShowTooltip" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+</keymap>

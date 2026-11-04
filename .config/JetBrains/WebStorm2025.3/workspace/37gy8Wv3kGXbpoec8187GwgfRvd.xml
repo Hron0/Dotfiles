@@ -1,0 +1,172 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Downloads" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">{}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRoots">
+    <project-root url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Downloads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/hrono/Downloads}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="Downloads" />
+            <item name="Downloads" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Downloads" />
+              <item name="dir{file:///home/hrono/Downloads}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/hrono/Downloads/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/logmein-hamachi-2.1.0.203-x64" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="logmein-hamachi-2.1.0.203-x64" />
+                <item name="dir{file:///home/hrono/Downloads/logmein-hamachi-2.1.0.203-x64}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/plugins" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="plugins" />
+                <item name="dir{file:///home/hrono/Downloads/plugins}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Telegram" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Telegram" />
+                <item name="dir{file:///home/hrono/Downloads/Telegram}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Telegram Desktop" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="Telegram Desktop" />
+                <item name="dir{file:///home/hrono/Downloads/Telegram Desktop}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/plugins.zip" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="plugins.zip" />
+                <item name="plugins.zip" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/WebStorm-2025.3.1.tar.gz" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="WebStorm-2025.3.1.tar.gz" />
+                <item name="WebStorm-2025.3.1.tar.gz" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Практический гайд на накрутку опыта резюме контакты легенда проекты подготовка к собесам [get-save.com].mp4" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="Практический гайд на накрутку опыта резюме контакты легенда проекты подготовка к собесам [get-save.com].mp4" />
+                <item name="Практический гайд на накрутку опыта резюме контакты легенда проекты подготовка к собесам [get-save.com].mp4" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1372000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Backup and Sync History" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3301047" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights left="0.3301047" right="0.25" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="386" width="500" height="350" key="#Custom_Plugin_Repositories" timestamp="1767339547392">
+      <screen x="0" y="42" width="1920" height="1038" />
+    </state>
+    <state x="710" y="386" width="500" height="350" key="#Custom_Plugin_Repositories/0.42.1920.1038@0.42.1920.1038" timestamp="1767339547392" />
+    <state x="753" y="333" key="FileChooserDialogImpl" timestamp="1767339714123">
+      <screen x="0" y="42" width="1920" height="1038" />
+    </state>
+    <state x="753" y="333" key="FileChooserDialogImpl/0.42.1920.1038@0.42.1920.1038" timestamp="1767339714123" />
+    <state x="469" y="211" key="SettingsEditor" timestamp="1767340823012">
+      <screen x="0" y="42" width="1920" height="1038" />
+    </state>
+    <state x="469" y="211" key="SettingsEditor/0.42.1920.1038@0.42.1920.1038" timestamp="1767340823012" />
+  </component>
+</project>

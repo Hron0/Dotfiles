@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Error: A value must be provided."
+    exit 1
+fi
+
+brightnessctl s $1
+
+current_brightness=$(brightnessctl g)
+max_brightness=$(brightnessctl m)
+
+brightness_percent=$(( (current_brightness * 100 + max_brightness / 2) / max_brightness ))
+
+if [ "$brightness_percent" -eq 100 ]; then
+    icon="notification-display-brightness-full"
+elif [ "$brightness_percent" -gt 70 ]; then
+    icon="notification-display-brightness-high"
+elif [ "$brightness_percent" -gt 45 ]; then
+    icon="notification-display-brightness-medium"
+else
+    icon="notification-display-brightness-low"
+fi
+
+# Send notification
+notify-send -a brightness "Brightness: $brightness_percent%" -i "$icon" -h string:x-canonical-private-synchronous:brightness
+

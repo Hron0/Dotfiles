@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Get the name of the current active connection
+current_connection=$(nmcli -t -f NAME connection show --active | head -1)
+
+# Disable the current connection
+if [ -n "$current_connection" ]; then
+    nmcli connection down "$current_connection"
+fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+asusctl profile --next
+
+PROFILE=$(asusctl profile -p | grep "Active profile is")
+
+if [[ "$PROFILE" == *"Performance" ]]; then
+    ICON="asus_notif_red"
+elif [[ "$PROFILE" == *"Balanced" ]]; then
+    ICON="asus_notif_white"
+else
+    ICON="asus_notif_yellow"
+fi
+
+notify-send --replace-id=3 --icon="$ICON" --app-name=asusctl "Profile changed" "$PROFILE"

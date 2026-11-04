@@ -1,0 +1,7 @@
+AngularJS
+com.intellij.plugins.html.instantEditing
+com.jetbrains.lang.ejs
+com.jetbrains.plugins.jade
+intellij.javascript.bun
+org.jetbrains.plugins.gitlab
+org.jetbrains.plugins.vue

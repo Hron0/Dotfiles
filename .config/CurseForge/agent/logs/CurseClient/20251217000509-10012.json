@@ -1,0 +1,2736 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 65554,
+  "Arguments": [
+    "/tmp/.mount_cursefdLOjiD/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=52261",
+    "--to-port=52281",
+    "--pid=65164",
+    "--appDataPath=/home/hrono/.config/CurseForge",
+    "--api-key=f8eec0ba-5a8c-4243-afce-22d1da41e855",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-12-16T21:05:08.1666632Z",
+  "Version": "1.293.0.29621",
+  "BuildDate": "2000-01-01T13:27:22Z",
+  "Start": "2025-12-17T00:05:09.6197164+03:00",
+  "Log": [
+{
+  "timestamp": "2025-12-17T00:05:09.5794075+03:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-12-17T00:05:09.6012234+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.293.0.29621"
+},
+{
+  "timestamp": "2025-12-17T00:05:09.604396+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=52261,--to-port=52281,--pid=65164,--appDataPath=/home/hrono/.config/CurseForge,--api-key=f8eec0ba-5a8c-4243-afce-22d1da41e855,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-12-17T00:05:09.6306649+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 65164"
+},
+{
+  "timestamp": "2025-12-17T00:05:12.4638029+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/hrono/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-12-17T00:05:12.7730901+03:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 52261"
+},
+{
+  "timestamp": "2025-12-17T00:05:12.8752125+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-12-17T00:05:13.2217654+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-12-17T00:05:13.2257999+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-12-17T00:05:13.2282719+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-12-17T00:05:13.235882+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-12-17T00:05:14.921884+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:05:14.9596216+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-12-17T00:05:15.9825994+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-12-17T00:05:15.9841194+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.1307791+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.131268+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/hrono/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.1971806+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "199.00"
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2407694+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2416985+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2724474+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2732169+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.273638+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2758643+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] Unable to load game instances from disk. No file was found at: /home/hrono/.config/CurseForge/agent/GameInstances/AddonGameInstance.json"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2761887+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2763199+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] Unable to load game instances from disk. No file was found at: /home/hrono/.config/CurseForge/agent/GameInstances/MinecraftGameInstance.json"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2808166+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 37 ms"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2819362+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.2864958+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.3007272+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.3160009+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instance count is 0, so we will scan all storage drives for games."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.3161176+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": false,
+    "GamesInstancesCount": 0
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:16.3842296+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/sys/fs/pstore' volume.",
+  "error": {
+    "message": "Access to the path '/sys/fs/pstore' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__28.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__16_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4456671+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/sys/fs/bpf' volume.",
+  "error": {
+    "message": "Access to the path '/sys/fs/bpf' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__28.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__16_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4644049+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 0 detected game instances. Operation took 177 ms"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4763825+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4782281+03:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4834173+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.4857785+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.5058765+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-12-17T00:05:16.5061126+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.6277133+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:16.6277942+03:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-17T00:05:17.1598355+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "580.00"
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:17.3797624+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "113.00"
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:17.3907906+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:17.3908319+03:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-17T00:05:29.1261829+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:29.1262213+03:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-17T00:05:29.1409731+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:05:29.453399+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:29.4534383+03:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5195248+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Beginning Minecraft launcher installation."
+},
+{
+  "timestamp": "2025-12-17T00:05:39.530119+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallTask 6c1114c7-0d33-4f10-af72-211b124c1571 MinecraftLauncherInstallTask started..."
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5320143+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Beginning Minecraft Launcher install"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5332075+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "MinecraftRoot: /home/hrono/Documents/curseforge/minecraft"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5332155+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstanceRoot: /home/hrono/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5332165+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallRoot: /home/hrono/Documents/curseforge/minecraft/Install"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5333622+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "VersionRoot: /home/hrono/Documents/curseforge/minecraft/Install/versions"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5335194+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "DownloadRoot: /home/hrono/Documents/curseforge/minecraft/Downloads"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.5346836+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Checking for existing installation",
+  "data": {
+    "Path": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher"
+  }
+},
+{
+  "timestamp": "2025-12-17T00:05:39.9319301+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading launcher https://launcher.mojang.com/download/Minecraft.tar.gz"
+},
+{
+  "timestamp": "2025-12-17T00:05:39.9482699+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://launcher.mojang.com/download/Minecraft.tar.gz to /tmp/apxkyezo.jeh/launcher.tar.gz"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.3226569+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Extracting launcher.tar.gz"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.401147+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4011864+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4020144+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstallTask 6c1114c7-0d33-4f10-af72-211b124c1571 MinecraftLauncherInstallTask completed"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4041693+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4043011+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/hrono/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4094232+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4094558+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4293408+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4293722+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4321595+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4321919+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:05:42.432468+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:05:42.4324938+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:05:53.3865577+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:05:53.8371807+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:05:55.9657435+03:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:05:56.3525981+03:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:06:01.0600622+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:06:01.094617+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:06:07.5438313+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:06:07.5491637+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:06:18.6776061+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:06:18.739949+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:06:27.9719407+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7285/709/RLCraft%20Dregora%20v1.1.2b%20-%20server%20pack.zip to /home/hrono/Desktop/RLCraft Dregora v1.1.2b - server pack.zip"
+},
+{
+  "timestamp": "2025-12-17T00:06:46.3207912+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:06:46.3294632+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:06:53.10126+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:06:53.1347733+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:07:32.252575+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:07:32.2526306+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:07:32.2562043+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:07:33.9427487+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:07:36.2259811+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:07:41.6189816+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:07:41.7515734+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:07:48.1036847+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:07:48.1102033+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:07:59.2399255+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:07:59.2546937+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:08:26.8858162+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:08:26.8979166+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:08:33.8584079+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:08:33.8808612+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:09:14.5109161+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:09:20.3180355+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:09:22.0753214+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:09:22.1196421+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:09:22.1829249+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:09:22.1935322+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:09:28.7373288+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:09:28.7579276+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:09:31.5425583+03:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7285/709/RLCraft%20Dregora%20v1.1.2b%20-%20server%20pack.zip to /home/hrono/Desktop/RLCraft Dregora v1.1.2b - server pack.zip"
+},
+{
+  "timestamp": "2025-12-17T00:09:39.7945682+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:09:39.9073771+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:09:59.7948448+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:10:00.062947+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:10:07.4438681+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:10:07.4586252+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:10:55.0648443+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:00.0760328+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:11:02.7308135+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:02.7677788+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:11:09.2315211+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:09.2523401+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:11:20.3544063+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:20.3654271+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:11:47.9942404+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:48.0056111+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:11:54.7948584+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:11:54.8081011+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:12:35.2275425+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-1.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-1.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:36.0846243+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:12:36.9305079+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:12:36.9498878+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-2.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-2.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:39.0721012+03:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-3.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-3.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:42.2721615+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-4.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-4.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:43.2339472+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-5.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-5.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:43.2837428+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:12:43.3215607+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:12:43.5435914+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-6.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-6.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:43.8399754+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-7.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-7.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:44.1553308+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-8.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-8.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:44.3714254+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://content.overwolf.com/curseforge/app/games/minecraft/assets/profileimages/CF-9.webp to /home/hrono/.config/CurseForge/CfApp_Assets/ModpackImages/default/CF-9.webp"
+},
+{
+  "timestamp": "2025-12-17T00:12:49.7759219+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:12:49.8816612+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:13:00.9048574+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:13:00.9153041+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:13:28.5490352+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:13:29.4087775+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:13:35.5450701+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:13:35.5523543+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:13:38.9278764+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on ModLoaderRepository -> GetModLoaderAsync"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.632125+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/hrono/Documents/curseforge/minecraft/Instances/asd/"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8260055+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.12.2"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8329413+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Creating version path: 1.12.2"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8335114+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Creating inheritsPath path: 1.12.2"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8344345+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8345322+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8346492+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Minecraft version 1.12.2 is not installed. Will now install it."
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8466365+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-data.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar to /home/hrono/Documents/curseforge/minecraft/Install/versions/1.12.2/1.12.2.jar"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.8965229+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9060457+03:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9103664+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9129988+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9152144+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9180691+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:39.9213508+03:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:13:40.188815+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack asd"
+},
+{
+  "timestamp": "2025-12-17T00:13:40.1974866+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: asd"
+},
+{
+  "timestamp": "2025-12-17T00:13:40.2043134+03:00",
+  "level": "Warn",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "No latest files found for instance"
+},
+{
+  "timestamp": "2025-12-17T00:13:41.5039329+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://piston-meta.mojang.com/v1/packages/cfd75871c03119093d7c96a6a99f21137d00c855/1.12.2.json to /home/hrono/Documents/curseforge/minecraft/Install/versions/1.12.2/1.12.2.json"
+},
+{
+  "timestamp": "2025-12-17T00:13:42.3156049+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-12-17T00:13:42.3206996+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-12-17T00:13:42.526342+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-14.23.5.2859."
+},
+{
+  "timestamp": "2025-12-17T00:13:42.5476376+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 226ms"
+},
+{
+  "timestamp": "2025-12-17T00:13:42.5483031+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-17T00:13:42.5904092+03:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Downloading: https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859.jar to /tmp/ddf74037-7368-44cb-a187-2ba9c8707468/forge-1.12.2-14.23.5.2859.jar"
+},
+{
+  "timestamp": "2025-12-17T00:13:42.6195545+03:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 71ms"
+},
+{
+  "timestamp": "2025-12-17T00:14:16.2077437+03:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:14:16.4403091+03:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:14:23.8513159+03:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:14:23.8819292+03:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:14:30.3284302+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:14:30.3376382+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:14:41.4693419+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:14:43.6066448+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:15:06.3476199+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:15:06.5658485+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:15:14.0197191+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:15:14.0312576+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:16:01.6439178+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:16:02.5169333+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:16:09.3175748+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:16:09.350093+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:16:15.8046534+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:16:15.8093935+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:16:26.9326187+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:16:26.9373294+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:16:29.3930776+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:16:29.4794347+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] InstallTask cancelled by user 1ee0c484-b4e1-4daf-9c36-87ebfd55df68 ProfileInstallTask"
+},
+{
+  "timestamp": "2025-12-17T00:16:29.5185356+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-12-17T00:16:29.5611254+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Removing Game Instance ID - c494b152-eb08-4626-86c8-754318964059"
+},
+{
+  "timestamp": "2025-12-17T00:16:29.8091696+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:16:30.5695197+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-12-17T00:16:30.570382+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-17T00:16:30.5759983+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 5ms"
+},
+{
+  "timestamp": "2025-12-17T00:16:30.5798156+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-17T00:16:30.5827215+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2025-12-17T00:16:44.4881265+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:16:44.5246462+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:16:54.5783994+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:16:54.5860234+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:17:00.8623073+03:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7285/709/RLCraft%20Dregora%20v1.1.2b%20-%20server%20pack.zip to /home/hrono/Desktop/RLCraft Dregora v1.1.2b - server pack.zip"
+},
+{
+  "timestamp": "2025-12-17T00:17:02.5685363+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:17:02.5752259+03:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:17:29.2333311+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:17:30.1492604+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:17:42.1937752+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:17:42.261437+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:17:49.8701221+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:17:49.9088511+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:17:56.3613651+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:17:56.3697628+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:18:07.4881958+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:18:09.6746232+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:18:35.1409203+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:18:35.2492156+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:18:42.011988+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:18:42.0988741+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:19:22.760421+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:19:22.8325332+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:19:30.433441+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:19:30.5012333+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:19:36.9238857+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:19:36.9326089+03:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:19:48.0463338+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:19:48.9008145+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:20:12.8675908+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:20:12.9331713+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:20:20.5169437+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:20:20.523665+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:21:08.1291564+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:21:13.3419465+03:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:21:15.8048996+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:21:15.8371048+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:21:22.2857659+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:21:22.2943654+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:21:33.4169596+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:21:33.4275348+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:21:42.8470584+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on ModLoaderRepository -> GetModLoaderAsync"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2377517+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/hrono/Documents/curseforge/minecraft/Instances/xdd/"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.241872+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.12.2"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2439367+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2440077+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "/home/hrono/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2440774+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Minecraft version 1.12.2 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2441323+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-14.23.5.2859."
+},
+{
+  "timestamp": "2025-12-17T00:21:43.2991895+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.315614+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.3295979+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.3455687+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.3497673+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.3539128+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.3571577+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Getting modpacks for game 432"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.6794575+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack xdd"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.6797867+03:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: xdd"
+},
+{
+  "timestamp": "2025-12-17T00:21:43.6799991+03:00",
+  "level": "Warn",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "No latest files found for instance"
+},
+{
+  "timestamp": "2025-12-17T00:21:45.2380845+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-12-17T00:21:45.2382457+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-12-17T00:21:45.2542719+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 15ms"
+},
+{
+  "timestamp": "2025-12-17T00:21:45.2543684+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-12-17T00:21:45.2565836+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2025-12-17T00:22:01.0704649+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:22:01.0805702+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:22:07.9354182+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:22:08.0474891+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:22:48.7027937+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:22:49.9671283+03:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:22:56.3659755+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:22:56.3724839+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:23:03.3900603+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:23:03.3956669+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:23:13.9837649+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:23:13.993574+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:23:41.6233022+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:23:41.6322372+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:23:49.4215645+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:23:49.4271909+03:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:24:29.252475+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:24:32.2415212+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:24:36.9167365+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:24:36.9485743+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:24:43.4082333+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:24:43.4153857+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:24:54.5427267+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:24:54.5526619+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:25:19.4260051+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:25:19.4815348+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:25:27.0934968+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:25:27.1074931+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:26:14.7187819+03:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:26:19.9331048+03:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:26:22.3880271+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:26:22.4214938+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:26:28.8814648+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:26:28.8934234+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:26:40.0172696+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:26:40.0249264+03:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:27:07.6545132+03:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:27:07.6634556+03:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:27:14.5197425+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:27:14.5286569+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:27:55.2762372+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:27:57.5538616+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:28:02.9459556+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:28:02.9769603+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:28:09.4361966+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:28:09.4507995+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:28:20.5740971+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:28:20.582967+03:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:28:48.2104436+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:28:48.319156+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:28:55.0810742+03:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-12-17T00:28:55.1575842+03:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-12-17T00:29:35.8338281+03:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+}
+]}
