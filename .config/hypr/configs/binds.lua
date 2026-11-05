@@ -19,7 +19,7 @@ hl.bind(MOD .. " + SHIFT + F", hl.dsp.exec_cmd("firefox"))
 hl.bind(MOD .. " + SHIFT + N", hl.dsp.exec_cmd("nautilus"))
 hl.bind(MOD .. " + SHIFT + V", hl.dsp.exec_cmd("pavucontrol"))
 hl.bind(MOD .. " + SHIFT + P", hl.dsp.exec_cmd('dms ipc call bar toggle name "Main Bar"'))
-hl.bind(MOD .. " + SHIFT + T", hl.dsp.exec_cmd("Telegram"))
+-- hl.bind(MOD .. " + SHIFT + T", hl.dsp.exec_cmd("Telegram"))
 
 -- Window manipulations
 
@@ -50,14 +50,6 @@ hl.bind(MOD .. " + Z", hl.dsp.layout("togglesplit"))
 hl.bind(MOD .. " + P", hl.dsp.exec_cmd("pkill -SIGUSR1 waybar"))
 hl.bind(MOD .. " + CTRL + P", hl.dsp.exec_cmd("~/.local/bin/restart_waybar"))
 
--- master layout only (disabled — general.layout is dwindle)
--- hl.bind(MOD .. " + A", hl.dsp.layout("rollprev"))
--- hl.bind(MOD .. " + X", hl.dsp.layout("swapwithmaster master"))
--- hl.bind(MOD .. " + D", hl.dsp.layout("rollnext"))
--- hl.bind(MOD .. " + SHIFT + A", hl.dsp.layout("cycleprev"))
--- hl.bind(MOD .. " + SHIFT + X", hl.dsp.layout("focusmaster"))
--- hl.bind(MOD .. " + SHIFT + D", hl.dsp.layout("cyclenext"))
-
 hl.bind(MOD .. " + SHIFT + E", hl.dsp.exec_cmd("~/.local/bin/toggle_rofi ~/.local/bin/bookmarks"))
 hl.bind(MOD .. " + Y", hl.dsp.exec_cmd("~/.local/bin/toggle_rofi python3 ~/.local/bin/auto_walls/rofi_selector.py"))
 
@@ -74,7 +66,7 @@ hl.bind(MOD .. " + comma", hl.dsp.exec_cmd("playerctl previous"))
 hl.bind(MOD .. " + slash", hl.dsp.exec_cmd("playerctl play-pause"))
 hl.bind(MOD .. " + SHIFT + slash", hl.dsp.exec_cmd("python3 ~/.local/bin/auto_walls/toggle_timer.py"))
 
-hl.bind(MOD .. " + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/change_wallpaper.sh"))
+-- hl.bind(MOD .. " + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/change_wallpaper.sh"))
 
 -- Screenshot / video recording
 hl.bind("Print", hl.dsp.exec_cmd("flameshot gui"))
@@ -122,7 +114,7 @@ hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("~/.local/bin/change_volume +5")
 hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"))
 hl.bind("XF86AudioMute", hl.dsp.exec_cmd("pactl set-sink-mute @DEFAULT_SINK@ toggle"))
 hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("~/.local/bin/toggle_microphone"))
-hl.bind("XF86AudioPlayPause", hl.dsp.exec_cmd("playerctl play-pause"))
+-- hl.bind("XF86AudioPlayPause", hl.dsp.exec_cmd("playerctl play-pause"))
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play"))
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl pause"))
 hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("~/.local/bin/brightness 4%+"))
