@@ -1,5 +1,5 @@
 ## Pacman
-```sudo pacman -S alacritty btop firefox pavucontrol pamixer playerctl hyprland hyprpaper flameshot rofi nautilus swaync xdg-desktop-portal xdg-desktop-portal-hyprland grim slurp```
+```sudo pacman -S alacritty btop firefox pavucontrol pamixer playerctl hyprland hyprpaper flameshot rofi nautilus swaync xdg-desktop-portal xdg-desktop-portal-hyprland grim slurp alsa-utils sof-firmware pipewire pipewire-pulse wireplumber```
 
 ## AUR
 amneziavpn-bin
