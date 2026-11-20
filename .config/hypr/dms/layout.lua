@@ -8,12 +8,15 @@ hl.config({
 		resize_on_border = false,
 	},
 	decoration = {
-		rounding = 8,
+		rounding = 16,
 		blur = {
 			passes = 2,
 		},
 	},
 })
+
+-- Hand-written or migrated hyprland.lua often lacks this; tweened island lifts misplace the drag pointer.
+hl.layer_rule({ match = { namespace = "^dms:dankisland$" }, no_anim = true })
 
 hl.layer_rule({
 	match = { namespace = "^dms:bar$" },

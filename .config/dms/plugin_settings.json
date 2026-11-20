@@ -1,0 +1,30 @@
+{
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": ""
+  },
+  "hoshiCalendar": {
+    "enabled": true,
+    "sources": [
+      {
+        "source": "/home/hrono/.local/share/khal/calendars/private/Personal.ics",
+        "name": "Personal"
+      }
+    ],
+    "refreshMinutes": 126,
+    "desktopLayout": "stacked",
+    "showEventDots": true,
+    "agendaDays": 5
+  },
+  "dankPomodoroTimer": {
+    "enabled": true,
+    "workDuration": "40"
+  },
+  "dankCalendarAgenda": {
+    "enabled": true,
+    "scrollTitle": true
+  },
+  "khalCalendar": {
+    "enabled": true
+  }
+}

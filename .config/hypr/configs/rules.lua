@@ -27,6 +27,15 @@ hl.window_rule({
     float = true,
 })
 
+hl.window_rule({
+  name = "Amnezia",
+  match = {
+    title = "AmneziaVPN"
+  },
+  float = true,
+  workspace = "special:magic"
+})
+
 -- Thunar
 
 hl.window_rule({
